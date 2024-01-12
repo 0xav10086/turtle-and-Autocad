@@ -23,7 +23,7 @@ t.setworldcoordinates(0, 0, 1000 * mul, 1500 * mul)
 # 从Excel文件中读取数据，返回一个DataFrame对象
 df = pd.read_excel("drawing2.xls")
 
-# 获取第2行到36行（索引为1到35）的数据，这些是圆弧
+# 获取第2行到36行（索引为1到34）的数据，这些是圆弧
 arc_data = df.loc[1:34].values
 
 tp_values = []
